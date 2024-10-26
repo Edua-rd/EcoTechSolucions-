@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTech Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>EcoTech Solutions</h1>
+        <p>Soluciones tecnológicas sostenibles para un futuro más verde.</p>
+    </header>
+
+    <section id="about">
+        <h2>Sobre Nosotros</h2>
+        <p>EcoTech Solutions es una empresa innovadora dedicada a ofrecer soluciones tecnológicas sostenibles para el medio ambiente. Nos especializamos en productos y servicios que promueven la eficiencia energética y la reducción del impacto ambiental.</p>
+    </section>
+
+    <section id="advantages">
+        <h2>Ventajas de Nuestros Productos</h2>
+        <ul>
+            <li><strong>Sostenibilidad:</strong> Materiales reciclables y energía renovable para reducir la huella de carbono.</li>
+            <li><strong>Eficiencia Energética:</strong> Dispositivos que consumen un 30% menos de energía.</li>
+            <li><strong>Innovación Tecnológica:</strong> Tecnologías avanzadas que garantizan rendimiento y larga vida útil.</li>
+            <li><strong>Soporte Técnico:</strong> Servicio al cliente 24/7.</li>
+            <li><strong>Relación Calidad-Precio:</strong> Precios competitivos sin comprometer la calidad.</li>
+        </ul>
+    </section>
+
+    <section id="products">
+        <h2>Productos y Servicios</h2>
+        <div class="product">
+            <h3>Paneles Solares</h3>
+            <p>Paneles solares de alta eficiencia para hogares.</p>
+        </div>
+        <div class="product">
+            <h3>Cargadores Eléctricos EcoCharge</h3>
+            <p>Cargadores rápidos para autos eléctricos con energía solar integrada.</p>
+        </div>
+        <div class="product">
+            <h3>Iluminación LED EcoBright</h3>
+            <p>Bombillas LED que ahorran hasta un 50% de energía.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Teléfono: 3009476914</p>
+        <p>Email: <a href="mailto:EcoTech@hotmail.com">EcoTech@hotmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 EcoTech Solutions. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+section {
+    max-width: 800px;
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+#advantages ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#advantages li {
+    padding: 0.5rem 0;
+}
+
+.product {
+    background-color: #e0f7fa;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+}
